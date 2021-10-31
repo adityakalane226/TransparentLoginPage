@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Heebo:wght@800&display=swap');
+body{
+    background: url(bg.jpg)no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    color: white;
+    position:absolute;
+    top: 30%;
+    left: 40%;
+}
+.container h1{
+    width: 50%;
+    font-size:40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 11px;
+    padding:13px 0px;
+    display: inline-block;
+    font-family: 'Heebo', sans-serif;
+
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid purple;
+    margin: 22px 0px;
+}
+.box input{
+    width: 75%;
+    background:none;
+    border:none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: white;
+}
+.box i{
+    width: 25px;
+    text-align: center;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0px;
+    padding: 10px 21px;
+    border-radius: 10px;
+    font-size: 18px;
+    background:none;
+    color: white;
+    font-weight: bold;
+
+}
+.btn:hover{
+    color: purple;
+    background-color: white;
+    opacity: 0.5;
+}
+.btn i{
+    margin: 0px 8px;
+}
+
